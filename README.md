@@ -19,7 +19,9 @@ Hyperparameter tuning is a crucial step in machine learning to improve model per
 ### Prerequisites
 
 - Python 3.7+
-- Required packages listed in `requirements.txt`
+- XGBoost
+- Pandas
+- Numpy
 
 ### Installation
 
@@ -33,11 +35,6 @@ Hyperparameter tuning is a crucial step in machine learning to improve model per
    ```sh
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scriptsctivate`
-   ```
-
-3. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
    ```
 
 ### Usage
@@ -66,9 +63,6 @@ Hyperparameter tuning is a crucial step in machine learning to improve model per
    python src/evaluation.py
    ```
 
-## Results
-
-The results of the hyperparameter optimization process, including performance metrics and visualizations, are stored in the `results/` directory.
 
 ## Contributing
 
