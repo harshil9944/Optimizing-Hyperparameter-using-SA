@@ -14,41 +14,6 @@ Hyperparameter tuning is a crucial step in machine learning to improve model per
 - Visualization of the optimization process.
 - Performance evaluation on benchmark datasets.
 
-## Repository Structure
-
-```
-Optimizing-Hyperparameter-using-SA/
-│
-├── data/
-│   ├── dataset1.csv
-│   ├── dataset2.csv
-│   └── ...
-│
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_model_training.ipynb
-│   ├── 03_hyperparameter_optimization.ipynb
-│   └── 04_evaluation_and_visualization.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── hyperparameter_optimization.py
-│   └── evaluation.py
-│
-├── results/
-│   ├── optimization_results.csv
-│   ├── performance_metrics.csv
-│   └── plots/
-│       ├── optimization_process.png
-│       └── performance_comparison.png
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-```
-
 ## Getting Started
 
 ### Prerequisites
